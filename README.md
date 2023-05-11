@@ -1,2 +1,45 @@
-# EGL314_GroupC
-Freddies nuts
+# System Diagram
+
+## Video
+
+## Audio
+
+## Control
+
+## Lighting
+
+
+# Theme
+
+### Theme: Horror
+
+### Intention: Our goal is to let people experience a roulette style horror game that allows them to make decisions with interactive aspects like buttons 
+
+### Age Group: 15+
+
+## Choice of feature:
+* Strengthen connections between brain cells when having to piece together the clues to pick the right choices
+* Increased mental speed
+
+
+## Intention of Use
+#### Our project Freddy's is a game meant to be played one person at a time. This game is meant to stimulate the players brain by giving them a clue to choose the right button in order to survive.
+#### Our game will feature 6 endings with 6 different cycles and clues, this makes the game harder to do as they cant just repeat the same cycle again and choose what they didnt the last time around.
+
+# Research
+Benefits of an Interactive Game
+
+#### Games are engaging they require higher order thinking, problem solving and persistence. Many games, even first-person shooting video games (which may not be appropriate for children) teach cooperation, group work and scenario-based learning. Most games require strategy to understand and then work within the rules. 
+#### All games offer a mix of intrinsic and extrinsic rewards. Humans play games precisely because they are captivating and reward us when we succeed. The Australian Office of the eSafety Commissioner, Think U Know UK, and the NZ organisation Netsafe all recognise that online games can help to develop teamwork, concentration, communication and problem-solving skills. 
+#### They are also an opportunity for young people to practise communication and conflict resolution skills.
+
+# References
+https://www.youtube.com/watch?v=SkphKew4f60&ab_channel=IULITMx - Extras Footage
+
+https://www.youtube.com/watch?v=Pvc4ymTTeqA&t=17s&ab_channel=IndieFuel - Gameplay Footage
+
+https://www.youtube.com/watch?v=lN71sHGgdQ0&ab_channel=DarkTaurus - All Jumpscares
+# Storyboard
+
+![Alt text](Images/S1.PNG)
+![Alt text](Images/S2.PNG)
