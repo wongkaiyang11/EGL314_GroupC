@@ -39,6 +39,11 @@ https://www.youtube.com/watch?v=SkphKew4f60&ab_channel=IULITMx - Extras Footage
 https://www.youtube.com/watch?v=Pvc4ymTTeqA&t=17s&ab_channel=IndieFuel - Gameplay Footage
 
 https://www.youtube.com/watch?v=lN71sHGgdQ0&ab_channel=DarkTaurus - All Jumpscares
+
+https://www.youtube.com/watch?v=ydcbIyJ8yVs&list=PL_2MB6_9kLAGMaFV1Vt4GE0v9dogNRf74&index=12&ab_channel=SoundLibrary - Buildup Sound
+
+https://www.youtube.com/watch?v=e2wnNXIvMU4&ab_channel=AlihanEdits - Buildup scary noises
+
 # Storyboard
 
 ![Alt text](Images/S1.PNG)
