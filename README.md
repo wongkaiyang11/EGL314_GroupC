@@ -46,5 +46,12 @@ https://www.youtube.com/watch?v=e2wnNXIvMU4&ab_channel=AlihanEdits - Buildup sca
 
 # Storyboard
 
-![Alt text](Images/S1.PNG)
-![Alt text](Images/S2.PNG)
+![Alt text](Images/1.PNG)
+![Alt text](Images/2.PNG)
+![Alt text](Images/3.PNG)
+![Alt text](Images/4.PNG)
+![Alt text](Images/5.PNG)
+![Alt text](Images/6.PNG)
+![Alt text](Images/7.PNG)
+![Alt text](Images/8.PNG)
+![Alt text](Images/9.PNG)
