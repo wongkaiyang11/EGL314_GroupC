@@ -44,6 +44,10 @@ https://www.youtube.com/watch?v=ydcbIyJ8yVs&list=PL_2MB6_9kLAGMaFV1Vt4GE0v9dogNR
 
 https://www.youtube.com/watch?v=e2wnNXIvMU4&ab_channel=AlihanEdits - Buildup scary noises
 
+https://www.youtube.com/watch?v=T_0polYUnUs&list=PL_2MB6_9kLAGMaFV1Vt4GE0v9dogNRf74&index=2&ab_channel=SoundLibrary - Win/Lose Background music
+
+https://www.youtube.com/watch?v=xAO3x-Uhfoo&ab_channel=ESNProductions - Ambiance Sound
+
 # Storyboard
 
 ![Alt text](Images/1.PNG)
