@@ -47,6 +47,21 @@ Benefits of an Interactive Game:
 ![Alt text](Images/8.PNG)
 ![Alt text](Images/9.PNG)
 
+
+# System Diagram
+
+# Control
+![Alt text](Images/Control.png)
+
+# Video
+![Alt text](Images/Video.png)
+
+# Lighting
+![Alt text](Images/Lighting.png)
+
+# Audio
+![Alt text](Images/Audio.png)
+
 # References
 https://www.youtube.com/watch?v=SkphKew4f60&ab_channel=IULITMx - Extras Footage
 
