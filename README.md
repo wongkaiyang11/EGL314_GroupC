@@ -23,15 +23,7 @@ Benefits of an Interactive Game:
 - All games offer a mix of intrinsic and extrinsic rewards. Humans play games precisely because they are captivating and reward us when we succeed. The Australian Office of the eSafety Commissioner, Think U Know UK, and the NZ organisation Netsafe all recognise that online games can help to develop teamwork, concentration, communication and problem-solving skills. 
 #### They are also an opportunity for young people to practise communication and conflict resolution skills.
 
-# System Diagram
 
-## Video
-
-## Audio
-
-## Control
-
-## Lighting
 
 
 
@@ -47,6 +39,9 @@ Benefits of an Interactive Game:
 ![Alt text](Images/8.PNG)
 ![Alt text](Images/9.PNG)
 
+
+# Setup
+![Alt text](Images/Setup.jpg)
 
 # System Diagram
 
