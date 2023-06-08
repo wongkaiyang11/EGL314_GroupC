@@ -42,6 +42,14 @@ Benefits of an Interactive Game:
 
 # Setup
 ![Alt text](Images/Setup.jpg)
+Game Setups
+![Alt text](Images/Gamesetup1.jpeg)
+![Alt text](Images/Gamesetup2.jpeg)
+
+
+# Pandora Box Content & Timeline
+![Alt text](Images/`314_TIMELINE.PNG)
+![Alt text](Images/314_CONTENT.PNG)
 
 # System Diagram
 
