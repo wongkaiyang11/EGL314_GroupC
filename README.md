@@ -46,7 +46,7 @@ Benefits of an Interactive Game:
 # System Diagram
 
 # Control
-![Alt text](Images/Control.png)
+![Alt text](Images/Control1.png)
 
 # Video
 ![Alt text](Images/Video.png)
