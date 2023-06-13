@@ -1,16 +1,79 @@
-<<<<<<< HEAD
+
+   
+        
+        
+
+=======
+# EGL 314 PROJECT FREDDY'S - GROUP C
+
+
+# Theme:
+# Horror
+
+### Intention: Our goal is to let people have an short but horrifying experience that will stay with them for a long time, we will achieve this by utilizing the combination of great lighting, surround sound and good buildup and visuals
+
+### Age Group: 15+
+
+## Choice of feature:
+- Memorable Experience: The combination of lights, surround sound, and good video can create a memorable experience that stays with the viewers long after the project is over.
+
+
+## Intention of Use
+- Our project Freddy's is a game meant to be played one person at a time. This game is meant to stimulate the players brain by giving them a clue to choose the right button in order to survive.
+- Our game will feature 6 endings with 6 different cycles and clues, this makes the game harder to do as they cant just repeat the same cycle again and choose what they didnt the last time around.
+
+# Research
+Benefits of an Interactive Game:
+
+- Games are engaging they require higher order thinking, problem solving and persistence. Many games, even first-person shooting video games (which may not be appropriate for children) teach cooperation, group work and scenario-based learning. Most games require strategy to understand and then work within the rules. 
+- All games offer a mix of intrinsic and extrinsic rewards. Humans play games precisely because they are captivating and reward us when we succeed. The Australian Office of the eSafety Commissioner, Think U Know UK, and the NZ organisation Netsafe all recognise that online games can help to develop teamwork, concentration, communication and problem-solving skills. 
+#### They are also an opportunity for young people to practise communication and conflict resolution skills.
+
+
+
+
+
+# Storyboard
+
+![Alt text](Images/1.PNG)
+![Alt text](Images/2.PNG)
+![Alt text](Images/3.PNG)
+![Alt text](Images/4.PNG)
+![Alt text](Images/5.PNG)
+![Alt text](Images/6.PNG)
+![Alt text](Images/7.PNG)
+![Alt text](Images/8.PNG)
+![Alt text](Images/9.PNG)
+
+
+# Setup
+![Alt text](Images/Setup.jpg)
+Game Setups
+![Alt text](Images/Gamesetup1.jpeg)
+![Alt text](Images/Gamesetup2.jpeg)
+
+
+# Pandora Box Content & Timeline
+![Alt text](Images/`314_TIMELINE.PNG)
+![Alt text](Images/314_CONTENT.PNG)
+
 # System Diagram
 
-## Video
+# Control
+![Alt text](Images/Control1.png)
 
-## Audio
+# Video
+![Alt text](Images/Video.png)
 
-## Control
+# Lighting
+![Alt text](Images/Lighting.png)
 
-## Lighting
+# Audio
+![Alt text](Images/Audio.png)
 
 # CODE
-    import RPi.GPIO as GPIO
+
+ import RPi.GPIO as GPIO
     import time
     import socket
     import random
@@ -242,79 +305,6 @@
         
     else:
         GPIO.output(23,False)
-        
-        
-
-=======
-# EGL 314 PROJECT FREDDY'S - GROUP C
->>>>>>> 18843ec09c48ef1c59c1fd7556a7bbfa4d51fb55
-
-# Theme
-
-### Theme: Horror
-
-### Intention: Our goal is to let people have an short but horrifying experience that will stay with them for a long time, we will achieve this by utilizing the combination of great lighting, surround sound and good buildup and visuals
-
-### Age Group: 15+
-
-## Choice of feature:
-- Memorable Experience: The combination of lights, surround sound, and good video can create a memorable experience that stays with the viewers long after the project is over.
-
-
-## Intention of Use
-- Our project Freddy's is a game meant to be played one person at a time. This game is meant to stimulate the players brain by giving them a clue to choose the right button in order to survive.
-- Our game will feature 6 endings with 6 different cycles and clues, this makes the game harder to do as they cant just repeat the same cycle again and choose what they didnt the last time around.
-
-# Research
-Benefits of an Interactive Game:
-
-- Games are engaging they require higher order thinking, problem solving and persistence. Many games, even first-person shooting video games (which may not be appropriate for children) teach cooperation, group work and scenario-based learning. Most games require strategy to understand and then work within the rules. 
-- All games offer a mix of intrinsic and extrinsic rewards. Humans play games precisely because they are captivating and reward us when we succeed. The Australian Office of the eSafety Commissioner, Think U Know UK, and the NZ organisation Netsafe all recognise that online games can help to develop teamwork, concentration, communication and problem-solving skills. 
-#### They are also an opportunity for young people to practise communication and conflict resolution skills.
-
-
-
-
-
-# Storyboard
-
-![Alt text](Images/1.PNG)
-![Alt text](Images/2.PNG)
-![Alt text](Images/3.PNG)
-![Alt text](Images/4.PNG)
-![Alt text](Images/5.PNG)
-![Alt text](Images/6.PNG)
-![Alt text](Images/7.PNG)
-![Alt text](Images/8.PNG)
-![Alt text](Images/9.PNG)
-
-
-# Setup
-![Alt text](Images/Setup.jpg)
-Game Setups
-![Alt text](Images/Gamesetup1.jpeg)
-![Alt text](Images/Gamesetup2.jpeg)
-
-
-# Pandora Box Content & Timeline
-![Alt text](Images/`314_TIMELINE.PNG)
-![Alt text](Images/314_CONTENT.PNG)
-
-# System Diagram
-
-# Control
-![Alt text](Images/Control1.png)
-
-# Video
-![Alt text](Images/Video.png)
-
-# Lighting
-![Alt text](Images/Lighting.png)
-
-# Audio
-![Alt text](Images/Audio.png)
-
-# CODE
 
 
 # References
