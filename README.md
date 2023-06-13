@@ -1,9 +1,3 @@
-
-   
-        
-        
-
-=======
 # EGL 314 PROJECT FREDDY'S - GROUP C
 
 
@@ -27,7 +21,7 @@ Benefits of an Interactive Game:
 
 - Games are engaging they require higher order thinking, problem solving and persistence. Many games, even first-person shooting video games (which may not be appropriate for children) teach cooperation, group work and scenario-based learning. Most games require strategy to understand and then work within the rules. 
 - All games offer a mix of intrinsic and extrinsic rewards. Humans play games precisely because they are captivating and reward us when we succeed. The Australian Office of the eSafety Commissioner, Think U Know UK, and the NZ organisation Netsafe all recognise that online games can help to develop teamwork, concentration, communication and problem-solving skills. 
-#### They are also an opportunity for young people to practise communication and conflict resolution skills.
+They are also an opportunity for young people to practise communication and conflict resolution skills.
 
 
 
@@ -46,9 +40,16 @@ Benefits of an Interactive Game:
 ![Alt text](Images/9.PNG)
 
 
+# IP Adresses:
+Laptop: 192.168.254.21
+
+Media Server: 192.168.254.81
+
+Raspberry Pi: 192.168.254.100
+
 # Setup
 ![Alt text](Images/Setup.jpg)
-Game Setups
+# Game Setup
 ![Alt text](Images/Gamesetup1.jpeg)
 ![Alt text](Images/Gamesetup2.jpeg)
 
@@ -70,6 +71,13 @@ Game Setups
 
 # Audio
 ![Alt text](Images/Audio.png)
+
+# Floor Plan
+![Alt text](Images/floor%20plan.png)
+![Alt text](Images/floor%20plan1.png)
+
+# BOM
+![Alt text](Images/bom.PNG)
 
 # CODE
 
