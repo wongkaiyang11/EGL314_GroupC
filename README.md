@@ -40,7 +40,7 @@ They are also an opportunity for young people to practise communication and conf
 ![Alt text](Images/9.PNG)
 
 
-# IP Addresses:
+# IP Address
 Laptop: 192.168.254.21
 
 Media Server: 192.168.254.81
