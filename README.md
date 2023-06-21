@@ -1,5 +1,11 @@
 # EGL 314 PROJECT FREDDY'S - GROUP C
 
+Group Members & Roles
+- Bryan (Group Leader, Programmer and Control in charge)
+- Kai Yang (Video editor and Pandora's Christie Box/Video In charge)
+- Ernest (Audio in Charge)
+- Matthew ( Lighting in charge)
+
 
 # Theme:
 # Horror
