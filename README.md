@@ -6,11 +6,21 @@ Group Members & Roles
 - Ernest (Audio in Charge)
 - Matthew ( Lighting in charge)
 
+## Project Information
+
+Objective: Our objective is to let people have an short but horrifying experience that will stay with them for a long time, we will achieve this by utilizing the combination of great lighting, surround sound and good buildup and visuals
+
+Background: Five nights at Freddy's is a horror video game that invokes fear via haunted animatronics that come alive at night and try to kill the player
+
+Features:
+- IR Sensors - used to allow our players to make decisions based on clues to help them survive
+- Buttons - used to navigate there and back in the game
+- Surround Sound - Using multiple speakers from different angles and orientations to provide good sound quality for our users
 
 # Theme:
 # Horror
 
-### Intention: Our goal is to let people have an short but horrifying experience that will stay with them for a long time, we will achieve this by utilizing the combination of great lighting, surround sound and good buildup and visuals
+
 
 ### Age Group: 15+
 
