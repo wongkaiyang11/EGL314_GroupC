@@ -77,7 +77,7 @@ Raspberry Pi: 192.168.254.100
 # System Diagram
 
 # Control
-![Alt text](Images/Control1.png)
+![Alt text](Images/314control.png)
 
 # Video
 ![Alt text](Images/Video.png)
