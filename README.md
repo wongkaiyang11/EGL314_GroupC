@@ -86,7 +86,7 @@ Raspberry Pi: 192.168.254.100
 ![Alt text](Images/Lighting.png)
 
 # Audio
-![Alt text](Images/Audio.png)
+![Alt text](<Images/314 audio.png>)
 
 # Floor Plan
 ![Alt text](Images/floor%20plan.png)
