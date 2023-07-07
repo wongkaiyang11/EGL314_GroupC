@@ -80,7 +80,8 @@ Raspberry Pi: 192.168.254.100
 ![Alt text](<Images/Screenshot 2023-07-06 135922.png>)
 
 # Video
-![Alt text](Images/Video.png)
+![VIDEO314](https://github.com/wongkaiyang11/EGL314_GroupC/assets/48461855/bbc1e495-6ea4-4d51-9a91-c39b621d3ae8)
+
 
 # Lighting
 ![Alt text](Images/Lighting.png)
