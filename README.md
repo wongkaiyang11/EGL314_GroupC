@@ -18,7 +18,7 @@ Features:
 - Surround Sound - Using multiple speakers from different angles and orientations to provide good sound quality for our users
 
 # Theme:
-# Horror
+ ## Horror
 
 
 
@@ -30,7 +30,7 @@ Features:
 
 ## Intention of Use
 - Our project Freddy's is a game meant to be played one person at a time. This game is meant to stimulate the players brain by giving them a clue to choose the right button in order to survive.
-- Our game will feature 6 endings with 6 different cycles and clues, this makes the game harder to do as they cant just repeat the same cycle again and choose what they didnt the last time around.
+- Our game is based on luck, the player will be given 6 coin slots, 5 of them do not activate the haunted animatronic whereas one of them does. The aim of the game is to develop buildup and suspense using sound and video. 
 
 # Research
 Benefits of an Interactive Game:
