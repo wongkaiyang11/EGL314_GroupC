@@ -94,7 +94,7 @@ Raspberry Pi: 192.168.254.100
 ![Alt text](Images/floor%20plan1.png)
 
 # BOM
-![Alt text](Images/bom.PNG)
+![Alt text](<Images/bom list 314.png>)
 
 # CODE
 
