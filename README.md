@@ -331,6 +331,43 @@ Raspberry Pi: 192.168.254.100
     else:
         GPIO.output(23,False)
 
+## Software Setup & Installation 
+## 1. Updating of Raspberry Pi
+
+```
+sudo apt update
+sudo apt upgrade
+```
+
+## 2. Configuring of Raspberry Pi
+SSH is a network communication protocol that enables two computers to communicate and share data.
+To **enable** SSH, type the following
+```
+sudo raspi-config
+```
+
+Select `3 Interface Options` <br>
+Select `P2 SSH` <br>
+**Enable SSH**
+
+### Enabling Virtual Network Computing (VNC)
+**VNC** is a cross-platform screen sharing system that can be used to remotely control another computer. 
+<br>
+
+To **enable** VNC, type the following
+```
+sudo raspi-config
+```
+Select `3 Interface Options` <br>
+Select `P3 VNC` <br>
+Select  **Enable VNC**<br>
+
+Open VNC Viewer on your Windows PC<br>
+Type in the IP of your Raspberry Pi after logging in through Putty CMD<br>
+Type in your Username and Password<br>
+Now, you will see the screen of the Raspberry Pi on your PC.<br>
+
+
 
 # References
 https://www.youtube.com/watch?v=SkphKew4f60&ab_channel=IULITMx - Extras Footage
