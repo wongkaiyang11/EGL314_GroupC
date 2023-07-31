@@ -16,7 +16,7 @@ def send_message(receiver_ip, receiver_port, address, message):
 
 #change the below values
 if __name__ == "__main__":
-    LAPTOP_IP = "192.168.254.150"		# send to laptop w grandMA3
+    LAPTOP_IP = "192.168.254.150"		# send to laptop w grandMA3 
     PORT = 8000                     # laptop w grandMA3 port number
     addr = "/gma3/cmd"
 

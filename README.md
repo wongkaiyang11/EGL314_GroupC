@@ -367,6 +367,98 @@ Type in the IP of your Raspberry Pi after logging in through Putty CMD<br>
 Type in your Username and Password<br>
 Now, you will see the screen of the Raspberry Pi on your PC.<br>
 
+### Python-OSC Library setup and Code
+The Python-OSC Library is used in the SeqX.py files that sends OSC message to the GrandMA3 On PC software which controls the 4 Philps Showline lights 
+
+```
+$ pip install python-osc
+```
+Once the library is imported open thonny python and create three files 'Seq1.py','Seq2.py','Seq3.py' and save them in the same folder as the main.py code. Below are the codes
+
+Seq1.py
+```
+from pythonosc import udp_client, osc_message_builder
+import time
+
+def send_message(receiver_ip, receiver_port, address, message):
+	try:
+		# Create an OSC client to send messages
+		client = udp_client.SimpleUDPClient(receiver_ip, receiver_port)
+
+		# Send an OSC message to the receiver
+		client.send_message(address, message)
+
+		print("Message sent successfully.")
+		
+	except:
+		print("Message not sent")
+
+#change the below values
+if __name__ == "__main__":
+    LAPTOP_IP = "192.168.254.150"		# send to laptop w grandMA3 
+    PORT = 8000                     # laptop w grandMA3 port number
+    addr = "/gma3/cmd"
+
+    send_message(LAPTOP_IP, PORT, addr, "Go Sequence 1")
+
+```
+Seq2.py
+```
+from pythonosc import udp_client, osc_message_builder
+import time
+
+def send_message(receiver_ip, receiver_port, address, message):
+	try:
+		# Create an OSC client to send messages
+		client = udp_client.SimpleUDPClient(receiver_ip, receiver_port)
+
+		# Send an OSC message to the receiver
+		client.send_message(address, message)
+
+		print("Message sent successfully.")
+		
+	except:
+		print("Message not sent")
+
+#change the below values
+if __name__ == "__main__":
+    LAPTOP_IP = "192.168.254.150"		# send to laptop w grandMA3 
+    PORT = 8000                     # laptop w grandMA3 port number
+    addr = "/gma3/cmd"
+
+    send_message(LAPTOP_IP, PORT, addr, "Go Sequence 2")
+
+```
+Seq3.py
+```
+from pythonosc import udp_client, osc_message_builder
+import time
+
+def send_message(receiver_ip, receiver_port, address, message):
+	try:
+		# Create an OSC client to send messages
+		client = udp_client.SimpleUDPClient(receiver_ip, receiver_port)
+
+		# Send an OSC message to the receiver
+		client.send_message(address, message)
+
+		print("Message sent successfully.")
+		
+	except:
+		print("Message not sent")
+
+#change the below values
+if __name__ == "__main__":
+    LAPTOP_IP = "192.168.254.150"		# send to laptop w grandMA3 
+    PORT = 8000                     # laptop w grandMA3 port number
+    addr = "/gma3/cmd"
+
+    send_message(LAPTOP_IP, PORT, addr, "Go Sequence 3")
+
+```
+credits to the code goes to 
+
+
 
 
 # References
