@@ -2,6 +2,8 @@ import RPi.GPIO as GPIO
 import time
 import socket
 import random
+import subprocess
+
 
 TCP_IP = '192.168.254.11'
 TCP_PORT = 5612
@@ -110,10 +112,13 @@ count = 0
 
 while True:
     
-       
-           
+    
+    
     if GPIO.input(24):
+        count = 0
+        print(count)
         s.send(MESSAGE)
+        subprocess.run(["python","Seq1.py"])
         #data=s.recv(BUFFER_SIZE)
         time.sleep(1)
         s.send(MESSAGE2)
@@ -121,15 +126,17 @@ while True:
         time.sleep(1)
     
         
-    elif GPIO.input(16):     
+    elif GPIO.input(16):
         s.send(MESSAGE1)        #data=s.recv(BUFFER_SIZE)
-        time.sleep(1)	
+        time.sleep(1)
         s.send(MESSAGE2)
         time.sleep(1)
         
     elif GPIO.input(17):
-        s.send(MESSAGE15)	
+        s.send(MESSAGE15)
+        subprocess.run(["python","Seq1.py"])
         time.sleep(1)
+        subprocess.run(["python","Seq1.py"])
         s.send(MESSAGE2)
         
     
@@ -148,64 +155,105 @@ while True:
                     if count == 1:
                         print ("Measured Distance = %.1f cm" % dist)
                         s.send(MESSAGE3)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(3.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
                         
                     elif count == 2:
                         print ("Measured Distance = %.1f cm" % dist)
                         s.send(MESSAGE3)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(3.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
                     
                     elif count == 3:
                         print ("Measured Distance = %.1f cm" % dist)
                         s.send(MESSAGE3)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(3.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
                         
                     
                      
                     elif count == 4:
                         print("gg")
                         s.send(MESSAGE16)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(6.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
                     
-                elif dist >= 12 and dist <= 20:
+                elif dist >= 18  and dist <= 25:
                     count = count + 1
                     print (count)
+                    print ("hi")
                     if count == 1:
                         print ("Measured Distance = %.1f cm" % dist)
                         s.send(MESSAGE3)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(3.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
                         
                     elif count == 2:
                         print ("Measured Distance = %.1f cm" % dist)
                         s.send(MESSAGE3)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(3.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
                     
                     elif count == 3:
                         print ("Measured Distance = %.1f cm" % dist)
                         s.send(MESSAGE3)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(3.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
                     
                      
                     elif count == 4:
                         print("gg")
                         s.send(MESSAGE16)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(6.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
                         
                         
                     
@@ -215,110 +263,176 @@ while True:
                     count = count + 1
                     print (count)
                     if count == 1:
-                        print ("Measured Distance = %.1f cm" % dist)
+                        print ("Measured Distance = %.1f cm" % dist1)
                         s.send(MESSAGE3)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(3.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
+                        
                     
                     elif count == 2:
-                        print ("Measured Distance = %.1f cm" % dist)
+                        print ("Measured Distance = %.1f cm" % dist1)
                         s.send(MESSAGE3)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(3.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
                     
                     elif count == 3:
-                        print ("Measured Distance = %.1f cm" % dist)
+                        print ("Measured Distance = %.1f cm" % dist1)
                         s.send(MESSAGE3)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(3.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
                     
                      
                     elif count == 4:
                         print("gg")
                         s.send(MESSAGE16)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(6.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
                         
                         
                     
                     
-                elif dist1  >= 12 and dist1 <= 20:
+                elif dist1  >= 18 and dist1 <= 25:
                     count = count + 1
                     print (count)
                     if count == 1:
-                        print ("Measured Distance = %.1f cm" % dist)
+                        print ("Measured Distance = %.1f cm" % dist1)
                         s.send(MESSAGE3)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(3.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
                     
                     elif count == 2:
-                        print ("Measured Distance = %.1f cm" % dist)
+                        print ("Measured Distance = %.1f cm" % dist1)
                         s.send(MESSAGE3)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(3.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
                         
                     elif count == 3:
-                        print ("Measured Distance = %.1f cm" % dist)
+                        print ("Measured Distance = %.1f cm" % dist1)
                         s.send(MESSAGE3)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(3.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
                     
                      
                     elif count == 4:
                         print("gg")
                         s.send(MESSAGE16)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(6.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
                         
                         
                     
                     
                 elif dist2 >= 1 and dist2 <= 10:
-                    print ("Measured Distance = %.1f cm" % dist1)
+                    print ("Measured Distance = %.1f cm" % dist2)
                     s.send(MESSAGE8)
+                    subprocess.run(["python","Seq2.py"])
                     time.sleep(1)
+                    subprocess.run(["python","Seq2.py"])
                     s.send(MESSAGE2)
+                    time.sleep(3.5)
+                    subprocess.run(["python","Seq1.py"])
                     time.sleep(1)
+                    subprocess.run(["python","Seq1.py"])
                     
-                elif dist2 >= 12 and dist2 <= 20:
+                elif dist2 >= 18 and dist2 <= 25:
                     count = count + 1
                     print (count)
                     if count == 1:
-                        print ("Measured Distance = %.1f cm" % dist)
+                        print ("Measured Distance = %.1f cm" % dist2)
                         s.send(MESSAGE3)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(3.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
                     
                     elif count == 2:
-                        print ("Measured Distance = %.1f cm" % dist)
+                        print ("Measured Distance = %.1f cm" % dist2)
                         s.send(MESSAGE3)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(3.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
                     
                     elif count == 3:
-                        print ("Measured Distance = %.1f cm" % dist)
+                        print ("Measured Distance = %.1f cm" % dist2)
                         s.send(MESSAGE3)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(3.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
                     
                      
                     elif count == 4:
                         print("gg")
                         s.send(MESSAGE16)
+                        subprocess.run(["python","Seq2.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq2.py"])
                         s.send(MESSAGE2)
+                        time.sleep(6.5)
+                        subprocess.run(["python","Seq3.py"])
                         time.sleep(1)
+                        subprocess.run(["python","Seq3.py"])
                     
                         
                         
